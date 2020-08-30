@@ -8,8 +8,6 @@ Steps To Create Custom Exception:
     
       public class DataNotFoundException extends RuntimeException{
         public static final long serialVersionUID = 1L;
-        
-        //create one constructor and pass msg.
         public DataNotFoundException(String message){
     	  super(message);
         }
